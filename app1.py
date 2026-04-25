@@ -24,7 +24,7 @@ df = cargar_datos()
 
 st.markdown(
     """
-    <h1 style='text-align: center; margin-bottom: 0.2rem;'>MESA DE VOTACIÓN JAC</h1>
+    <h1 style='text-align: center; margin-bottom: 0.2rem;'>ELECCIONES JAC 2026</h1>
     <p style='text-align: center; color: #666; margin-bottom: 2rem;'>
         Consulta el código de votación por número de documento
     </p>
@@ -32,9 +32,9 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-documento = st.text_input("Digite la cédula del ciudadano")
+documento = st.text_input("Digite el Documento")
 
-if st.button("🔍 Buscar en el libro", use_container_width=True):
+if st.button("🔍 Buscar Registro", use_container_width=True):
     if not documento.strip():
         st.warning("Por favor, digite un número de documento.")
     else:
