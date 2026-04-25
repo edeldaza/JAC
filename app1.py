@@ -53,4 +53,3 @@ if st.button("🔍 Buscar en el libro", use_container_width=True):
         else:
             st.error("No se encontró ningún registro con ese documento.")
 
-st.caption("App Diseñada por Edeldaza")
