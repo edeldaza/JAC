@@ -100,4 +100,4 @@ if buscar:
         else:
             st.error("❌ El ciudadano no aparece en el libro de inscritos.")
 
-st.caption("App preparada para desplegarse en Streamlit Community Cloud.")
+st.caption("App Diseñada por Edeldaza")
